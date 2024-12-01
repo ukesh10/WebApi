@@ -1,0 +1,51 @@
+# Gitignore file 
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Cache files
+.env
+*.env
+
+# Logs
+*.log
+
+# Database
+*.mdf
+*.ldf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE-related settings
+.idea/
+.vscode/
+*.suo
+*.swp
+
+desktop.ini
+
+# Packages
+packages/
+node_modules/
+
+# Publish output
+publish/
+wwwroot/
+
+# Ignore appsettings.json
+appsettings.json
+appsettings.*.json
+
+# EF Core Migrations folder (optional, if not required in source control)
+Migrations/
